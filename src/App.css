@@ -1,0 +1,69 @@
+.wrapper,
+html,
+body {
+ height: 100%;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+}
+
+.wrapper {
+ display: flex;
+ width: 600px;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+ margin-top: 50px;
+ border: 1px dotted gray;
+}
+
+.main {
+ flex: 1;
+}
+
+.nav {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+label {
+ width: 400px;
+ padding: 20px;
+ background-color: #eb5a4a;
+ border-radius: 30px;
+ border: 1px;
+ font-size: 20px;
+ font-weight: 700;
+ color: #ffff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 40px 0;
+}
+
+.wrapper label:hover {
+ background-color: #ec230d;
+}
+
+input[type="file"] {
+ display: none;
+}
+
+.parseButton {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #3e9080;
+ color: #ffff;
+ font-weight: bold;
+ padding: 20px;
+ border-radius: 10px;
+ border: 1px;
+}
+
+.parseButton:hover {
+ background-color: #13a184;
+}
